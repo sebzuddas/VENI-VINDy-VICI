@@ -30,8 +30,7 @@ class BaseModel(tf.keras.Model, ABC):
         """
 
         # ! broken due to tf (can't copy layer https://github.com/keras-team/keras/issues/19383)
-        # todo: check this again
-        # ! commented out for now
+        #TODO: check this again -- this has been solved on keras
 
         # sig = inspect.signature(self.__init__)
         # keys = [param.name for param in sig.parameters.values()]

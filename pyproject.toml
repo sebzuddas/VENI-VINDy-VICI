@@ -23,6 +23,7 @@ dependencies = [
     "tensorflow_model_optimization>=0.8",
     "tf-keras>=2.15",
     "imageio>=2.30",
+    "pytest>=9.2.0",
 ]
 keywords = [
     "model order reduction",
